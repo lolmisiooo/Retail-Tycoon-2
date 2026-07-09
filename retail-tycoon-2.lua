@@ -1,0 +1,147 @@
+-- ========== Retail Tycoon 2 – Data ==========
+-- Product prices
+local PRICES = {
+	-- Toys
+	Toys = 20,
+	-- Clothing
+	Clothing = 30,
+	Shoes = 40,
+	Hats = 50,
+	-- Candy
+	Candy = 8,
+	-- Food
+	Snacks = 7,
+	["Canned Food"] = 10,
+	["Boxed Food"] = 12,
+	["Cold Food"] = 15,
+	["Baked Goods"] = 12,
+	Fruit = 10,
+	Vegetables = 10,
+	Condiments = 10,
+	Beverages = 8,
+	-- Electronics
+	["Small Electronics"] = 400,
+	["Large Electronics"] = 700,
+	["PC Electronics"] = 450,
+	["PC Peripherals"] = 85,
+	["Office Electronics"] = 45,
+	["Game Consoles"] = 290,
+	Videogames = 35,
+	-- Appliances
+	["Small Appliances"] = 200,
+	["Large Appliances"] = 1000,
+	-- Home Goods
+	Kitchenware = 40,
+	["Paper Goods"] = 12,
+	Luggage = 70,
+	["Vacuum Cleaners"] = 100,
+	["Personal Care"] = 18,
+	-- School Supplies
+	["School Supplies"] = 15,
+	-- Instruments
+	["Brass Instruments"] = 500,
+	["String Instruments"] = 500,
+	Pianos = 650,
+	-- Tools and Equipment
+	["Small Outdoor Equipment"] = 130,
+	["Large Outdoor Equipment"] = 500,
+	["Small Power Tools"] = 65,
+	["Large Power Tools"] = 115,
+	["Garden Tools"] = 40,
+	["Paint Supplies"] = 18,
+	["Lumber"] = 20,
+	-- Furniture
+	["Small Furniture"] = 180,
+	["Large Furniture"] = 450,
+	["Exercise Equipment"] = 1200,
+	["Game Tables"] = 155,
+	-- Transportation
+	["Personal Transport"] = 425,
+	-- Vehicles
+	["Car Parts"] = 50,
+	["Economy Cars"] = 13000,
+	-- Jewelery
+	Jewelery = 850,
+	-- Pets
+	["Small Pets"] = 65,
+	["Large Pets"] = 600,
+	["Pet Food"] = 20,
+	-- Military
+	Guns = 850,
+	Ammo = 70,
+	["Military Vehicles"] = 90000,
+	["Armored Vehicles"] = 485000,
+}
+
+-- Unit sizes
+local UNIT_SIZES = {
+	Toys = 8,
+	Clothing = 2,
+	Shoes = 4,
+	Hats = 6,
+	Candy = 1,
+	Snacks = 2,
+	["Canned Food"] = 2,
+	["Boxed Food"] = 3,
+	["Cold Food"] = 3,
+	["Baked Goods"] = 4,
+	Fruit = 3,
+	Vegetables = 3,
+	Condiments = 2,
+	Beverages = 4,
+	["Small Electronics"] = 4,
+	["Large Electronics"] = 15,
+	["PC Electronics"] = 10,
+	["PC Peripherals"] = 6,
+	["Office Electronics"] = 8,
+	["Game Consoles"] = 15,
+	Videogames = 1,
+	["Small Appliances"] = 15,
+	["Large Appliances"] = 100,
+	Kitchenware = 12,
+	["Paper Goods"] = 10,
+	Luggage = 20,
+	["Vacuum Cleaners"] = 15,
+	["Personal Care"] = 2,
+	["School Supplies"] = 2,
+	["Brass Instruments"] = 20,
+	["String Instruments"] = 20,
+	Pianos = 90,
+	["Small Outdoor Equipment"] = 30,
+	["Large Outdoor Equipment"] = 80,
+	["Small Power Tools"] = 8,
+	["Large Power Tools"] = 80,
+	["Garden Tools"] = 30,
+	["Paint Supplies"] = 26,
+	["Lumber"] = 10,
+	["Small Furniture"] = 80,
+	["Large Furniture"] = 200,
+	["Exercise Equipment"] = 200,
+	["Game Tables"] = 150,
+	["Personal Transport"] = 50,
+	["Car Parts"] = 12,
+	["Economy Cars"] = 1500,
+	Jewelery = 1,
+	["Small Pets"] = 40,
+	["Large Pets"] = 150,
+	["Pet Food"] = 8,
+	Guns = 15,
+	Ammo = 5,
+	["Military Vehicles"] = 3000,
+	["Armored Vehicles"] = 4000,
+}
+
+-- Trucks the user can own (name exactly as in-game, capacity in units)
+local TRUCKS = {
+	{ name = "Pickup Truck", capacity = 300 },
+	{ name = "Van", capacity = 600 },
+  { name = "Sprinter Van", capacity = 900 },
+  { name = "Small Box Truck", capacity = 1200 },
+  { name = "Large Box Truck", capacity = 2500 },
+  { name = "Electric Box Truck", capacity = 2500 },
+  { name = "Semi", capacity = 6000 },
+  { name = "Electric Semi", capacity = 6000 },
+  { name = "Military Truck", capacity = 3000 },
+  { name = "Cargo Helicopter", capacity = 4000 },
+  { name = "Cargo Airship", capacity = 12000 },
+}
