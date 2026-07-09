@@ -1,6 +1,6 @@
 -- ========== Retail Tycoon 2 – Data ==========
--- Product prices
-local PRICES = {
+
+PRICES = {
 	-- Toys
 	Toys = 20,
 	-- Clothing
@@ -73,8 +73,7 @@ local PRICES = {
 	["Armored Vehicles"] = 485000,
 }
 
--- Unit sizes
-local UNIT_SIZES = {
+UNIT_SIZES = {
 	Toys = 8,
 	Clothing = 2,
 	Shoes = 4,
@@ -131,17 +130,18 @@ local UNIT_SIZES = {
 	["Armored Vehicles"] = 4000,
 }
 
--- Trucks the user can own (name exactly as in-game, capacity in units)
-local TRUCKS = {
+TRUCKS = {
 	{ name = "Pickup Truck", capacity = 300 },
 	{ name = "Van", capacity = 600 },
-  { name = "Sprinter Van", capacity = 900 },
-  { name = "Small Box Truck", capacity = 1200 },
-  { name = "Large Box Truck", capacity = 2500 },
-  { name = "Electric Box Truck", capacity = 2500 },
-  { name = "Semi", capacity = 6000 },
-  { name = "Electric Semi", capacity = 6000 },
-  { name = "Military Truck", capacity = 3000 },
-  { name = "Cargo Helicopter", capacity = 4000 },
-  { name = "Cargo Airship", capacity = 12000 },
+	{ name = "Sprinter Van", capacity = 900 },
+	{ name = "Small Box Truck", capacity = 1200 },
+	{ name = "Large Box Truck", capacity = 2500 },
+	{ name = "Electric Box Truck", capacity = 2500 },
+	{ name = "Semi", capacity = 6000 },
+	{ name = "Electric Semi", capacity = 6000 },
+	{ name = "Military Truck", capacity = 3000 },
+	{ name = "Cargo Helicopter", capacity = 4000 },
+	{ name = "Cargo Airship", capacity = 12000 },
 }
+
+return { PRICES = PRICES, UNIT_SIZES = UNIT_SIZES, TRUCKS = TRUCKS }
