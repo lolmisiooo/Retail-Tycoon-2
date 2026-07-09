@@ -1,4 +1,4 @@
--- ========== MANUAL PRICE LIST ========== [""] = ,
+-- ========== MANUAL PRICE LIST ==========
 local PRICES = {
   -- Toys
     Toys = 20,
