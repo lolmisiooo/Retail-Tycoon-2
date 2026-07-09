@@ -32,7 +32,7 @@ local PRICES = {
   -- Home Goods
     Kitchenware = 40,
     ["Paper Goods"] = 12,
-    Luggage = 70
+    Luggage = 70,
     ["Vacuum Cleaners"] = 100,
     ["Personal Care"] = 18,
   -- School Supplies
